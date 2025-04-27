@@ -10,7 +10,6 @@ by THED&Co
 - 1× Câble d’alimentation USB Type-C
 - 1× Adaptateur secteur USB Type-A
 - 1× Carte RFID (portée jusqu’à 12 cm)
-- 1× Étiquette RFID souple (portée jusqu’à 7 cm)
 
 ---
 
@@ -22,6 +21,7 @@ by THED&Co
 - **Alimentation** : 5V via USB Type-C
 - **Boîtier** : PLA
 - **Compatibilité** : Zigbee2MQTT, Home Assistant (via Z2M)
+- **Dimensions lxLxh** : 93.6 × 43.6 × 15.5 mm
 
 ---
 
@@ -66,6 +66,20 @@ Utilisez ces entités dans vos automatisations Home Assistant :
 - Envoyer des notifications personnalisées.
 
 ---
+
+## 🛠️ Blueprint Home Assistant
+
+Ce blueprint simplifie l’intégration du TAGSense dans vos automatisations Home Assistant. Il permet de déclencher des actions spécifiques en fonction de la détection d’un badge RFID.
+
+#### Fonctionnalités :
+- Détection de présence ou d’absence d’un badge.
+- Exécution d’automatisations personnalisées basées sur l’UID du badge.
+
+#### Importation du Blueprint :
+1. Cliquez sur le bouton ci-dessous pour importer directement le blueprint dans votre instance Home Assistant.
+2. Configurez les paramètres selon vos besoins.
+
+[![Import Blueprint](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?external_url=https://raw.githubusercontent.com/TLongstride/THED-Co/blueprints/fr/tagsense_blueprint.yaml)
 
 ## ⚠️ Conseils de sécurité et bonnes pratiques
 

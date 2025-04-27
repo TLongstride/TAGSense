@@ -48,6 +48,10 @@ All ISO 15693 tags are compatible.
 
 You can purchase TAGSense on [Tindie](https://www.tindie.com/products/38459/).
 
+## Images
+
+Find product and usage images in the [docs/images](docs/images) folder.
+
 ## Video
 
 Watch the TAGSense reader in action on [YouTube](https://www.youtube.com/channel/UCya3AObZp-ZwquD5AgKnOvw).
