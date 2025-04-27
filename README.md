@@ -15,6 +15,21 @@ The user manual for TAGSense is available in the following languages:
 - **External Converter for Zigbee2MQTT**: External converter file for integrating TAGSense with Zigbee2MQTT ([Zigbee2MQTT/TAGSense.js](Zigbee2MQTT/TAGSense.js)).
 - **Technical Resources**: Schematics, technical notes, configuration examples, etc.
 
+## Technical Data
+
+List of the tested tag:
+
+- **RFID card**  
+  *Reading distance: up to 12 cm*
+- **Flexible RFID tag**  
+  *Reading distance: up to 7 cm*
+- **Blue key fob**  
+  *Reading distance: upcomming soon*
+- **50×50 mm chip**  
+  *Reading distance: upcomming soon*
+
+All ISO 15693 tags are compatible.
+
 ## Using the Zigbee2MQTT Converter
 
 To integrate TAGSense with Zigbee2MQTT:
@@ -29,20 +44,17 @@ For Zigbee2MQTT Home Assistant Addon:
 3. Copy the `TAGSense.js` file into the `external_converters` folder.
 4. Restart Zigbee2MQTT.
 
-## Technical Data
+## 🛠️ Home Assistant Blueprint
 
-List of the tested tag:
+Simplify the integration of TAGSense into your Home Assistant automations with this blueprint. It enables triggering specific actions based on RFID badge detection.
 
-- **RFID card**  
-  *Reading distance: up to 12 cm*
-- **Flexible RFID tag**  
-  *Reading distance: up to 7 cm*
-- **Blue key fob**  
-  *Reading distance: up to X cm*
-- **50×50 mm chip**  
-  *Reading distance: up to X cm*
+The blueprint is available in **French** :
 
-All ISO 15693 tags are compatible.
+[![Import Blueprint](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/TLongstride/TAGSense/blob/main/blueprints/fr/TAGSense.yaml)
+
+The blueprint is available in **English** :
+
+[![Import Blueprint](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/TLongstride/TAGSense/blob/main/blueprints/en/TAGSense.yaml)
 
 ## Where to Buy
 

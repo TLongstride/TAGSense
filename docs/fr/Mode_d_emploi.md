@@ -79,7 +79,7 @@ Ce blueprint simplifie l’intégration du TAGSense dans vos automatisations Hom
 1. Cliquez sur le bouton ci-dessous pour importer directement le blueprint dans votre instance Home Assistant.
 2. Configurez les paramètres selon vos besoins.
 
-[![Import Blueprint](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?external_url=https://raw.githubusercontent.com/TLongstride/THED-Co/blueprints/fr/tagsense_blueprint.yaml)
+[![Import Blueprint](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/TLongstride/TAGSense/blob/main/blueprints/fr/TAGSense.yaml)
 
 ## ⚠️ Conseils de sécurité et bonnes pratiques
 
