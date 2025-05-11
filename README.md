@@ -15,18 +15,14 @@ The user manual for TAGSense is available in the following languages:
 - **External Converter for Zigbee2MQTT**: External converter file for integrating TAGSense with Zigbee2MQTT ([Zigbee2MQTT/TAGSense.js](Zigbee2MQTT/TAGSense.js)).
 - **Technical Resources**: Schematics, technical notes, configuration examples, etc.
 
-## Technical Data
+## Tested RFID Tags and Reading Distances
 
-List of the tested tag:
-
-- **RFID card**  
-  *Reading distance: up to 12 cm*
-- **Flexible RFID tag**  
-  *Reading distance: up to 7 cm*
-- **Blue key fob**  
-  *Reading distance: upcomming soon*
-- **50×50 mm chip**  
-  *Reading distance: upcomming soon*
+| Tag                   | Size / Type                  | Max Reading Distance |
+|------------------------|-------------------------------|----------------------|
+| PVC Card              | Rigid card (credit card size) | Up to **12 cm**     |
+| Flexible Tag Ø22mm    | Soft adhesive tag (22 mm)     | Up to **7 cm**      |
+| Key Fob (Blue)        | Plastic keychain tag          | Up to **7 cm**      |
+| RFID Inlay 50×50 mm   | Square adhesive inlay         | Up to **10 cm**     |
 
 All ISO 15693 tags are compatible.
 
@@ -42,7 +38,9 @@ For Zigbee2MQTT Home Assistant Addon:
 1. Navigate to the `config/zigbee2mqtt` directory.
 2. Create a folder named `external_converters` if it does not already exist.
 3. Copy the `TAGSense.js` file into the `external_converters` folder.
-4. Restart Zigbee2MQTT.
+4. Copy the `TAGSense.png` file into the `device_icons` folder if you want to use custom device icons.
+5. Restart Zigbee2MQTT.
+6. In the **Settings** tab, enter `device_icons/TAGSense.png` in the **icon** field to set the custom device icon.
 
 ## 🛠️ Home Assistant Blueprint
 
@@ -66,7 +64,7 @@ Find product and usage images in the [docs/images](docs/images) folder.
 
 ## Video
 
-Watch the TAGSense reader in action on [YouTube](https://www.youtube.com/channel/UCya3AObZp-ZwquD5AgKnOvw).
+Watch the TAGSense reader in action on [YouTube](https://www.youtube.com/@THEDandCo).
 
 ## About
 

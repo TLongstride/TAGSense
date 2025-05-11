@@ -30,7 +30,8 @@ by THED&Co
 1. Choisissez un emplacement adapté : installez le TAGSense dans un lieu dégagé, sec et à l’abri des interférences électromagnétiques.
 2. Fixation : utilisez les trous traversants pour une fixation stable sur une surface plane.
 3. Branchement : connectez l’alimentation. Une LED s’allume brièvement pour indiquer la mise sous tension.
-4. Démarrage : attendez 5 à 10 secondes pour le démarrage complet du module.
+4. Démarrage : attendez 5 secondes pour le démarrage complet du module.
+5. Lectures : la lecture d'un badge prend entre 200 ms et 1200 ms.
 
 ---
 
@@ -52,7 +53,9 @@ Pour l’addon Zigbee2MQTT de Home Assistant :
 1. Accédez au répertoire `config/zigbee2mqtt`.
 2. Créez un dossier nommé `external_converters` s’il n’existe pas déjà.
 3. Copiez le fichier `TAGSense.js` dans le dossier `external_converters`.
-4. Redémarrez Zigbee2MQTT.
+4. (Optionnel) Copiez le fichier `TAGSense.png` dans le dossier `device_icons` si vous souhaitez utiliser une icône personnalisée pour l’appareil.
+5. Redémarrez Zigbee2MQTT.
+6. Dans l’onglet Paramètres, saisissez `device_icons/TAGSense.png` dans le champ icône pour définir l’icône personnalisée de l’appareil.
 
 Une fois intégré via Zigbee2MQTT, deux entités sont automatiquement créées :
 
