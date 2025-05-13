@@ -1,18 +1,18 @@
-# TAGSense
+# THZReader
 
-This repository gathers all the resources for the **TAGSense** (Zigbee ISO 15693 RFID reader).
+This repository gathers all the resources for the **THZReader** (Zigbee ISO 15693 RFID reader).
 
 ## User Manual
 
-The user manual for TAGSense is available in the following languages:
+The user manual for THZReader is available in the following languages:
 
 - **French**: [Mode d'emploi (French User Manual)](docs/fr/Mode_d_emploi.md)
 - **English**: [User Manual (English)](docs/en/User_Manual.md)
 
 ## Repository Contents
 
-- **User Manual**: User documentation for installation, configuration, and usage of TAGSense.
-- **External Converter for Zigbee2MQTT**: External converter file for integrating TAGSense with Zigbee2MQTT ([Zigbee2MQTT/TAGSense.js](Zigbee2MQTT/TAGSense.js)).
+- **User Manual**: User documentation for installation, configuration, and usage of THZReader.
+- **External Converter for Zigbee2MQTT**: External converter file for integrating THZReader with Zigbee2MQTT ([Zigbee2MQTT/THZReader.js](Zigbee2MQTT/THZReader.js)).
 - **Technical Resources**: Schematics, technical notes, configuration examples, etc.
 
 ## Tested RFID Tags and Reading Distances
@@ -28,35 +28,35 @@ All ISO 15693 tags are compatible.
 
 ## Using the Zigbee2MQTT Converter
 
-To integrate TAGSense with Zigbee2MQTT:
+To integrate THZReader with Zigbee2MQTT:
 
-1. Copy the [`Zigbee2MQTT/TAGSense.js`](Zigbee2MQTT/TAGSense.js) file into the `external_converters` folder of your Zigbee2MQTT installation.
+1. Copy the [`Zigbee2MQTT/THZReader.js`](Zigbee2MQTT/THZReader.js) file into the `external_converters` folder of your Zigbee2MQTT installation.
 2. Restart Zigbee2MQTT.
 
 For Zigbee2MQTT Home Assistant Addon:
 
 1. Navigate to the `config/zigbee2mqtt` directory.
 2. Create a folder named `external_converters` if it does not already exist.
-3. Copy the `TAGSense.js` file into the `external_converters` folder.
-4. Copy the `TAGSense.png` file into the `device_icons` folder if you want to use custom device icons.
+3. Copy the `THZReader.js` file into the `external_converters` folder.
+4. Copy the `THZReader.png` file into the `device_icons` folder if you want to use custom device icons.
 5. Restart Zigbee2MQTT.
-6. In the **Settings** tab, enter `device_icons/TAGSense.png` in the **icon** field to set the custom device icon.
+6. In the **Settings** tab, enter `device_icons/THZReader.png` in the **icon** field to set the custom device icon.
 
 ## 🛠️ Home Assistant Blueprint
 
-Simplify the integration of TAGSense into your Home Assistant automations with this blueprint. It enables triggering specific actions based on RFID badge detection.
+Simplify the integration of THZReader into your Home Assistant automations with this blueprint. It enables triggering specific actions based on RFID badge detection.
 
 The blueprint is available in **French** :
 
-[![Import Blueprint](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/TLongstride/TAGSense/blob/main/blueprints/fr/TAGSense.yaml)
+[![Import Blueprint](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/TLongstride/THZReader/blob/main/blueprints/fr/THZReader.yaml)
 
 The blueprint is available in **English** :
 
-[![Import Blueprint](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/TLongstride/TAGSense/blob/main/blueprints/en/TAGSense.yaml)
+[![Import Blueprint](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/TLongstride/THZReader/blob/main/blueprints/en/THZReader.yaml)
 
 ## Where to Buy
 
-You can purchase TAGSense on [Tindie](https://www.tindie.com/products/38459/).
+You can purchase THZReader on [Tindie](https://www.tindie.com/products/38459/).
 
 ## Images
 
@@ -64,7 +64,7 @@ Find product and usage images in the [docs/images](docs/images) folder.
 
 ## Video
 
-Watch the TAGSense reader in action on [YouTube](https://www.youtube.com/@THEDandCo).
+Watch the THZReader reader in action on [YouTube](https://www.youtube.com/@THEDandCo).
 
 ## About
 

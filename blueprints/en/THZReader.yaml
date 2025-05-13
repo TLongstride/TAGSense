@@ -1,5 +1,5 @@
 blueprint:
-  name: TAGSense - Action on detected tag
+  name: THZReader - Action on detected tag
   description: >
     Triggers an action when a "tag UID" entity detects a tag with the expected UID.
   domain: automation

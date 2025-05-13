@@ -8,7 +8,7 @@ const e = exposes.presets;
 const fz = zigbeeHerdsmanConverters.fromZigbeeConverters || zigbeeHerdsmanConverters.fromZigbee;
 
 // Ajout du convertisseur ptvo_switch_uart
-fz.TagSense = {
+fz.THZReader = {
     cluster: "genMultistateValue",
     type: ["attributeReport", "readResponse"],
     convert: (model, msg, publish, options, meta) => {
@@ -51,11 +51,11 @@ fz.TagSense = {
 
 // Définition de l'appareil
 const device = {
-    zigbeeModel: ['TagSense'],
-    model: 'TagSense',
-    vendor: 'THED',
+    zigbeeModel: ['THZReader'],
+    model: 'THZReader',
+    vendor: 'THEDandCo',
     description: 'RFID reader ISO 15693',
-    fromZigbee: [fz.ignore_basic_report, fz.TagSense],
+    fromZigbee: [fz.ignore_basic_report, fz.THZReader],
     toZigbee: [],
     exposes: [
         exposes.binary('tag', ea.STATE, true, false).withDescription('Tag present status (e.g., true, false)'),
