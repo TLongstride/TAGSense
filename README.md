@@ -58,6 +58,8 @@ The blueprint is available in **English** :
 
 You can purchase THZReader on [Tindie](https://www.tindie.com/products/38459/).
 
+<a href="https://www.tindie.com/stores/thedandco/?ref=offsite_badges&utm_source=sellers_THEDco&utm_medium=badges&utm_campaign=badge_small"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-smalls.png" alt="I sell on Tindie" width="200" height="55"></a>
+
 ## Images
 
 Find product and usage images in the [docs/images](docs/images) folder.
